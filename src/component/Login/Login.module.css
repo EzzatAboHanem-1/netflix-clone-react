@@ -1,0 +1,135 @@
+.login_page {
+    position: relative;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.login_logo {
+    position: absolute;
+    left: 150px;
+    top: 30px;
+    width: 155px;
+}
+.bgImg {
+    width: 100%;
+    height: calc(100vh - 7px);
+    margin: 0;
+    padding: 0;
+
+}
+.login_form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.847);
+    padding: 50px 50px 10px;
+    border-radius: 6px;
+    width: 450px;
+    height: 640px;
+}
+
+.title {
+    font-size: 28px;
+    margin: 15px 0 40px;
+    font-weight: 400;
+}
+.authontication_form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.authontication_form input {
+    background-color: #333333;
+    padding: 18px 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    outline: none;
+    transition: 0.5s;
+}
+.authontication_form input::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+}
+.authontication_form input:focus {
+    color: white;
+    border: 1px solid white;
+}
+.authontication_form button {
+    background-color: #E50914;
+    padding: 14px 10px;
+    border-radius: 3px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin: 20px 0 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.authontication_form button:hover {
+    background-color: rgb(193, 17, 25);
+}
+.authontication_help {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 7px 0 0;
+}
+.remember {
+    display: flex;
+    align-items: center;
+}
+.remember .checkBox {
+    accent-color: #333333;
+    margin-right: 5px;
+    width: 14px;
+}
+.remember label,
+.authontication_help p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #B3B3B3;
+}
+.authontication_help p {
+    cursor: pointer;
+}
+.signup_signin_switch {
+    margin: 30px 0 20px;
+    position: absolute;
+    bottom: 35px;
+}
+.first_child {
+    font-size: 16px;
+    margin: 10px 0;
+}
+.first_child,
+.second_child {
+    color: #737373;
+}
+.first_child span {
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.first_child span:hover {
+    color:#c9c7c7;
+}
+.second_child {
+    font-size: 14px;
+    margin: 10px 0;
+}
+.loader_parent {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.847);
+    z-index: 10;
+}
+.loading_spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
