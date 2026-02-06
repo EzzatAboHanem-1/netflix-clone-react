@@ -1,0 +1,65 @@
+.landing {
+    position: relative;    
+}
+.hero {
+    width: 100%;
+    mask-image: linear-gradient(to right, transparent, rgb(30, 29, 29) 75%);
+    
+}
+.hero_caption {
+    position: absolute;
+    bottom: 30px;
+    max-width: 1000px;
+    padding: 15px 6%;
+    
+}
+.hero_title {
+    margin: 20px 0;
+    max-width: 550px;
+}
+.title {
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+.hero_btn {
+    display: inline-flex;
+    gap: 20px;
+    justify-content: start;
+    align-items: center;
+    margin: 22px 0;
+}
+.btn1 {
+    background-color: white;
+}
+.btn1:hover {
+    background-color: #ffffffbf;
+}
+.btn2 {
+    background-color: #6d6d6eb3;
+    color: #fff;
+}
+.btn2:hover {
+    background-color: #6d6d6e66;
+}
+.btn1,
+.btn2 {
+    border: 0;
+    outline: 0;
+    padding: 10px 22px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.4s;
+}
+.playImg,
+.infoImg {
+    /* width: 45px; */
+    font-size: 18px;
+
+}
+.more_Cards {
+    padding-left: 6%;
+}
