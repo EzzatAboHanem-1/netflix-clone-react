@@ -1,0 +1,184 @@
+:root {
+    --mainSearchColor: #2d2d2d;
+}
+.navbar {
+    margin: 0 auto 15px;
+    padding: 20px 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    font-size: 14px;
+    color: #e5e5e5;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.456), 1%, transparent);
+    z-index: 1;
+}
+.nav_L {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.search_bell {
+    font-size: 16px;
+}
+.nav_L ul {
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+.nav_L ul li {
+    transition: 0.4s;
+}
+.nav_L ul li:hover {
+    color: #dad8d9;
+}
+
+.icon {
+    width: 120px;
+}
+
+.nav_R {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav_R .action_icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav_R .profile {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.signUp {
+    display: none;
+    position: absolute;
+    top: 85%;
+    left: -33px;
+    width: max-content;
+    padding: 10px 15px;
+    background-color: #191919;
+    border-radius: 4px;
+    text-decoration: underline;
+    color: #e5e5e5;
+    margin: 5px 0 0;
+}
+.profile:hover .signUp {
+    display: block;
+    transition: 0.4s;
+}
+.drowpDown_icon {
+    margin-left: 0;
+}
+.prof {
+    width: 30px;
+    border-radius: 2px;
+}
+.navAfterScroll {
+    transition: 0.4s;
+    background-color: #141414df;
+}
+
+/* start search input style */
+
+.searchBox {
+    width: 380px;
+    margin: auto 0;
+    background-color: var(--mainSearchColor);
+    border-radius: 5px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    padding: 15px 10px;
+}
+
+input {
+    flex: 1;
+    border: 0;
+    outline: 0;
+    height: 18px;
+    color: #ffffff;
+    background-color:var(--mainSearchColor);
+    font-size: 14px;
+}
+
+input::placeholder {
+    color: #ffffff;
+}
+
+.search-box button {
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons .removeIcon {
+    cursor: pointer;
+    margin-right: 10px;
+    width: fit-content;
+    display: none;
+    color: rgb(16, 28, 28);
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.icons .removeIcon:hover {
+    color:#d81f26;
+}
+
+button .removeIcon:first-child {
+    cursor: pointer;
+}
+
+button .searchIcon {
+    background-color: var(--mainSearchColor);
+    width: 35px;
+    color: #ffffff;
+    border: 0;
+    font-size: 15px;
+    list-style: none;
+    outline: 2px solid var(--mainSearchColor);
+}
+
+button .searchIcon:first-child {
+    cursor: pointer;
+}
+
+.respondBox {
+    overflow-y:scroll;
+    max-height: 300px;
+    transition: 0.4s;
+}
+
+.respondBox ul {
+    border-top: 1px solid #999;
+    padding: 15px;
+}
+
+.respondBox ul li {
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.respondBox ul li:hover {
+    background-color: #e9f3ff;
+}
+
+.letterColor {
+    color:rgb(117, 118, 118);
+    font-weight: 500;
+}
