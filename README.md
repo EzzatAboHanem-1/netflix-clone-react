@@ -1,10 +1,10 @@
-Netflix Clone (React)
+Netflix Clone (React):
 
 A Netflix-inspired Front-End web application built with React that replicates the core look and feel of Netflix. This project emphasizes clean UI, smooth UX, and scalable architecture, making it a strong portfolio-level project to demonstrate real-world React skills.
 
 Disclaimer: This project is for educational purposes only and is not affiliated with Netflix.
 
-Project Overview
+Project Overview:
 
 The goal of this project is to build a simplified Netflix clone where users can:
 
@@ -26,7 +26,7 @@ Modern React development practices
 
 Clean and scalable folder structure
 
-Features
+Features:
 Browsing & Discovery
 
 Netflix-inspired UI/UX
@@ -45,7 +45,7 @@ View Title, Overview, Rating, Release Date
 
 Watch trailers (YouTube integration)
 
-User Features
+User Features:
 
 My List (Watchlist)
 
@@ -57,7 +57,7 @@ Fast performance with Vite
 
 Smooth animations and transitions
 
-Tech Stack
+Tech Stack:
 
 Frontend: React.js, HTML5, CSS3, JavaScript (ES6+)
 
@@ -73,7 +73,7 @@ API: TMDB API
 
 Build Tool: Vite
 
-Project Structure
+Project Structure:
 src/
 │── assets/          # Images, icons
 │── components/      # Reusable UI components
@@ -101,19 +101,19 @@ src/
 │── App.jsx
 │── main.jsx
 
-Installation & Run Locally
+Installation & Run Locally:
 
-Clone the repository
+Clone the repository:
 
 git clone https://github.com/username/netflix-clone-react.git
 
 
-Navigate to the project folder
+Navigate to the project folder:
 
 cd netflix-clone-react
 
 
-Install dependencies
+Install dependencies:
 
 npm install
 
@@ -123,16 +123,16 @@ Create a .env file in the root directory:
 VITE_TMDB_API_KEY=your_api_key_here
 
 
-Start the development server
+Start the development server:
 
 npm run dev
 
-API Used
+API Used:
 
 The Movie Database (TMDB API) – fetch movies and TV shows data.
 https://www.themoviedb.org/
 
-Future Enhancements
+Future Enhancements:
 
 Dedicated Movie & TV Show Details Pages
 
@@ -144,7 +144,7 @@ Dark / Light Mode toggle
 
 Performance optimizations (Lazy Loading & Code Splitting)
 
-Developer
+Developer:
 
 Ezzat Abo Hanem – Front-End Developer (React)
 
